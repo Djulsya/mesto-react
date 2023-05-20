@@ -51,11 +51,11 @@ function App() {
         popupClose={closeAllPopups}>
         <input className="popup__input popup__input_type_name"
           id="profilename-input" type="text" name="name" placeholder="Имя"
-          minLength="2" maxLength="40" value="" required />
+          minLength="2" maxLength="40" required />
         <span className="popup__input-error popup__input-error_type_name"></span>
         <input className="popup__input popup__input_type_about"
           id="profileabout-input" type="text" name="about" placeholder="О себе"
-          minLength="2" maxLength="200" value="" required />
+          minLength="2" maxLength="200" required />
         <span className="popup__input-error popup__input-error_type_about"></span>
       </PopupWithForm>
 
@@ -66,8 +66,7 @@ function App() {
         button="Сохранить"
         popupClose={closeAllPopups}>
         <input className="popup__input popup__input-editavatar popup__input_type_avatar"
-          id="photourl-input-avatar" type="url" name="link" placeholder="Ссылка на картинку аватара"
-          value="" required />
+          id="photourl-input-avatar" type="url" name="link" placeholder="Ссылка на картинку аватара" required />
         <span className="popup__input-error avatar-input-error"></span>
       </PopupWithForm>
 
@@ -79,11 +78,10 @@ function App() {
         popupClose={closeAllPopups}>
         <input className="popup__input popup__input-addphoto popup__input-addphoto_type_title"
           id="photoname-input" type="text" name="title" placeholder="Название"
-          minLength="2" maxLength="30" value="" required />
+          minLength="2" maxLength="30" required />
         <span className="popup__input-error popup__input-error_type_title"></span>
         <input className="popup__input popup__input-addphoto popup__input-addphoto_type_link"
-          id="photourl-input" type="url" name="link" placeholder="Ссылка на картинку"
-          value="" required />
+          id="photourl-input" type="url" name="link" placeholder="Ссылка на картинку" required />
         <span className="popup__input-error popup__input-error_type_link"></span>
       </PopupWithForm>
 
